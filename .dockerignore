@@ -5,4 +5,4 @@ docs
 screenshots
 
 *.md
-.env
+.envaz provider show --namespace Microsoft.Web --query "resourceTypes[?resourceType=='sites'].locations" -o table
