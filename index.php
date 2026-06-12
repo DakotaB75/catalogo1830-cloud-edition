@@ -1,4 +1,6 @@
 <?php
+echo "AZURE OK - APP RUNNING";
+exit;
 /**
  * CodeIgniter
  *
