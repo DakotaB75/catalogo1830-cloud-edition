@@ -1,0 +1,8 @@
+.git
+.github
+.vscode
+docs
+screenshots
+
+*.md
+.envaz provider show --namespace Microsoft.Web --query "resourceTypes[?resourceType=='sites'].locations" -o table

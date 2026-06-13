@@ -1,32 +1,105 @@
-.DS_Store
+# =========================
+# Secrets
+# =========================
+.env
+.env.*
+!.env.example
 
-application/cache/*
-!application/cache/index.html
+*.pem
+*.key
+*.crt
+*.pfx
+*.cer
+*.jks
+*.keystore
 
+# Azure
+.azure/
+.azureclitask/
+azure.json
+azureauth.json
+publishsettings
+*.publishsettings
+
+# Terraform
+*.tfvars
+terraform.tfstate
+terraform.tfstate.*
+.terraform/
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
 application/logs/*
 !application/logs/index.html
 
-!application/*/.htaccess
+# Cache
+application/cache/*
+!application/cache/index.html
 
-composer.lock
-tests/mocks/database/ci_test.sqlite
-
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
+# Vendor
 /vendor/
 
-# IDE Files
-#-------------------------
-/nbproject/
-.idea/*
+# IDE
+.vscode/
+.idea/
+.nbproject/
 
-## Sublime Text cache files
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
-*.sublime-workspace
-*.sublime-project
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests
 /tests/tests/
 /tests/results/
+
+# Build
+dist/
+build/
+coverage/
+
+# User files
+*.bak
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Azure
+.azure/
+azureProfile.json
+publishSettings.xml
+*.publishsettings
+
+# VS Code
+.vscode/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Certificates
+*.pfx
+*.p12
+*.pem
+*.key
+*.crt
+*.cer
+
+# Logs
+*.log
+
+# Local configs
+local.settings.json
+appsettings.Development.json
+
+# Docker
+docker-compose.override.yml
+application/libraries/qrcode/*.txt
