@@ -40,7 +40,7 @@ src="https://img.shields.io/badge/▶_Azure_Deployment-CLICK_TO_OPEN_APP_SERVICE
   Executive Sumary
 </h1>
 
-This repository documents the evolution of a legacy academic PHP application into a cloud-hosted solution deployed on Microsoft Azure.
+This repository documents the evolution of a legacy academic PHP application into a cloud hosted solution deployed on Microsoft Azure.
 
 Building upon the original academic foundation, the project was re architected to demonstrate how traditional applications can be adapted to modern cloud environments through structured infrastructure, deployment automation, security hardening, operational governance and technical documentation.
 
