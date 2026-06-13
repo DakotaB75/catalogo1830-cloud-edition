@@ -65,3 +65,40 @@ coverage/
 *.bak
 *.tmp
 *.swp
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Azure
+.azure/
+azureProfile.json
+publishSettings.xml
+*.publishsettings
+
+# VS Code
+.vscode/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Certificates
+*.pfx
+*.p12
+*.pem
+*.key
+*.crt
+*.cer
+
+# Logs
+*.log
+
+# Local configs
+local.settings.json
+appsettings.Development.json
+
+# Docker
+docker-compose.override.yml
