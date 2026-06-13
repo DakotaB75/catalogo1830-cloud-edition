@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/gif1.gif" width="100%">
+  <img src="gif1.gif" width="100%">
 </p>
 
 <h1 align="center">
@@ -36,7 +36,7 @@ src="https://img.shields.io/badge/▶_Azure_Deployment-CLICK_TO_OPEN_APP_SERVICE
 ---
 
 <h1 align="center">
-  <img src="Logo%20Azure.png" width="38" valign="middle"/>
+  <img src="Logo Azure.png" width="38" valign="middle"/>
   Executive Sumary
 </h1>
 
@@ -105,7 +105,7 @@ The objective was not only to migrate an application, but also to apply the prof
 
 <td width="35%" align="center" valign="middle">
 
-<img src="Logo%20Raccoon.png" width="260" alt="Raccoon Logo"/>
+<img src="Logo Raccoon.png" width="260" alt="Raccoon Logo"/>
 
 </td>
 
@@ -233,11 +233,10 @@ Resource Groups (rg-cloud-modernization) | Azure Policy | Tagging Strategy | Cos
 </div>
 
 ---
-
 # Technical Demonstration
 
 <p align="center">
-  <img src="./docs/gif1.gif" width="90%">
+  <img src="gif1.gif" width="90%">
 </p>
 
 ---
@@ -245,7 +244,7 @@ Resource Groups (rg-cloud-modernization) | Azure Policy | Tagging Strategy | Cos
 # Cloud Dashboard Experience
 
 <p align="center">
-  <img src="./docs/gif2.gif" width="90%">
+  <img src="gif2.gif" width="90%">
 </p>
 
 ---
@@ -253,7 +252,7 @@ Resource Groups (rg-cloud-modernization) | Azure Policy | Tagging Strategy | Cos
 # Deployment Validation
 
 <p align="center">
-  <img src="./docs/gif3.gif" width="90%">
+  <img src="gif3.gif" width="90%">
 </p>
 
 ---
@@ -281,6 +280,6 @@ All rights reserved.
 
 <div align="left">
 
-<img src="Logo%20Marca%20de%20Agua.png" width="80"/>
+<img src="Logo Marca de Agua.png" width="80"/>
 
 </div>
