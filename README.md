@@ -48,17 +48,16 @@ The objective was not only to migrate an application, but also to apply the prof
 
 
 <br>
-
 <div align="center">
 
 <h1>Key Objectives</h1>
 
-<table>
+<table width="100%" align="center">
 <tr>
 
-<td width="65%" valign="top" align="center">
+<td width="65%" valign="top">
 
-<table>
+<table width="100%">
 <tr>
 <th align="center">#</th>
 <th align="center">Objective</th>
@@ -81,7 +80,7 @@ The objective was not only to migrate an application, but also to apply the prof
 
 <tr>
 <td align="center">04</td>
-<td align="center">Security-Focused Repository Cleanup</td>
+<td align="center">Security Focused Repository Cleanup</td>
 </tr>
 
 <tr>
