@@ -113,8 +113,6 @@ The objective was not only to migrate an application, but also to apply the prof
 
 </div>
 
-
----
 <div align="center">
 
 <h1>Modernization Scope</h1>
@@ -165,96 +163,102 @@ The objective was not only to migrate an application, but also to apply the prof
 </div>
 
 ---
+
 <div align="center">
 
 # Implementation Center within Azure
 
 </div>
 
----
 
-## Delivery Pipeline End-to-End Flow
-
-<div align="center">
-
-GitHub Repository → GitHub Actions → Docker Build → Azure Container Registry (ACR) → Azure App Service → Azure Front Door / Application Gateway WAF + Routing → Public HTTPS Endpoint 
-
-</div>
-
----
-
-## Azure Platform Layer
+## Delivery Pipeline (End to End)
 
 <div align="center">
 
-Azure Virtual Network (VNet) | Subnet: App Service | Subnet: Data Layer | Subnet: Private Endpoints
+GitHub → GitHub Actions → Docker → ACR → App Service → Front Door / WAF → HTTPS Endpoint
 
 </div>
 
----
 
-## Data Layer
+## Architecture Layers
 
-<div align="center">
 
-Azure SQL Database / MySQL Flexible Server | Azure Storage Account (Blobs / Assets / Backups)
-
-</div>
+### Platform
+VNet · Subnets (App / Data / Private Endpoints)
 
 ---
 
-## Security & Identity Layer
-
-<div align="center">
-
-Managed Identity | Azure Key Vault | NSGs | WAF Policies
-
-</div>
+### Data
+Azure SQL / MySQL Flexible Server · Storage Account (Blobs · Assets · Backups)
 
 ---
 
-## Observability Stack
-
-<div align="center">
-
-Azure Monitor | Log Analytics Workspace | Application Insights | Diagnostic Settings
-
-</div>
+### Security & Identity
+Managed Identity · Key Vault · NSGs · WAF Policies
 
 ---
 
-## Governance & Cost Control
-
-<div align="center">
-
-Resource Groups (rg-cloud-modernization) | Azure Policy | Tagging Strategy | Cost Management + Budgets | Lifecycle Automation
-
-</div>
+### Observability
+Azure Monitor · Log Analytics · Application Insights · Diagnostics
 
 ---
-# Technical Demonstration
+
+### Governance & Cost
+Resource Groups · Azure Policy · Tags · Cost Management · Budgets
+
+
+<br>
+
+
+
+
+
+<h1 style="text-align: center;">
+  Technical Evidence: Azure Observability & Copilot Integration
+</h1>
+
+<br>
+
+<p style="text-align: center; font-size: 0.9rem; color: #6B7280; margin-top: 6px;">
+  Azure App Service Validation via VS Code
+</p>
 
 <p align="center">
   <img src="gif1.gif" width="90%">
 </p>
 
----
+<br>
 
-# Cloud Dashboard Experience
+<p style="text-align: center; font-size: 0.9rem; color: #6B7280; margin-top: 6px;">
+  Azure Metrics | Monitoring & Linux SSH
+</p>
 
 <p align="center">
   <img src="gif2.gif" width="90%">
 </p>
 
----
 
-# Deployment Validation
+<br>
+
+<p style="text-align: center; font-size: 0.9rem; color: #6B7280; margin-top: 6px;">
+  Azure Copilot Implementation Center
+</p>
 
 <p align="center">
   <img src="gif3.gif" width="90%">
 </p>
 
----
+<br>
+
+<p style="text-align: center; font-size: 0.9rem; color: #6B7280; margin-top: 6px;">
+  App Service Live Validation via Microsoft Edge
+</p>
+
+<p align="center">
+  <img src="gif4.gif" width="90%">
+</p>
+
+<br>
 
 <div align="center">
 
